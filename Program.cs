@@ -11,7 +11,7 @@
 
             if (numeroConvertido != -1)
             {
-                Console.WriteLine ($"El numero romano {numeroConvertido} en decimal es {numeroConvertido}");
+                Console.WriteLine ($"El numero romano {numRomano} en decimal es {numeroConvertido}");
                 return;
             }
 
