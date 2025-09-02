@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Ingrese el numero romano: ");
+            string? numRomano = Console.ReadLine();  
         }
     }
 }
