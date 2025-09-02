@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.Write("Ingrese el numero romano: ");
-            string? numRomano = Console.ReadLine();
+            string? numRomano = Console.ReadLine().ToUpper().Trim();
 
             int numeroConvertido = ConversionesHelper.ConvertirRomanoDecimal(numRomano);    
 
