@@ -12,10 +12,13 @@
             if (numeroConvertido != -1)
             {
                 Console.WriteLine ($"El numero romano {numRomano} en decimal es {numeroConvertido}");
+                Console.WriteLine ($"El factorial del numero convertido es {OperacionesHelper.CalcularFactorial(numeroConvertido)}");   
                 return;
             }
 
             Console.WriteLine("Numero romano no valido");
+
+
         }
     }
 }
